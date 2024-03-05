@@ -7,59 +7,70 @@
     </head>
 
     <body>
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="group-one.html">Group One</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="group-two.html">Group Two</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="group-three.html">Group Three</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="group-four.html">Group Four</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="contact.html">Contact</a>
-            </li>
+        <ul class="navbar navbar-expand-sm border-bottom bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="collapseNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Questions</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="group-one.html">Group One</a></li>
+                                <li><a class="dropdown-item" href="group-two.html">Group Two</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Definitions</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="group-three.html">Group Three</a></li>
+                                <li><a class="dropdown-item" href="group-four.html">Group Four</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </ul>
 
-        <div class="container border rounded my-3 p-3">
+        <div class="container border rounded my-3 p-3 bg-light">
             <h1 class="text-center">Contact</h1>
 
             <div class="row row-cols-auto justify-content-center py-3">
                 <div class="col">
-                    <a href="https://www.flaticon.com/free-icon/web-link_3308395">
+                    <a href="https://www.flaticon.com/free-icon/world-wide-web_1927656">
                         <img
-                            src="web-link-icon.png"
-                            alt="Web link icon"
+                            src="world-wide-web.png"
+                            alt="Web wide web icon"
                             width="25"
                             height="25"
                         />
                     </a>
                 </div>
                 <div class="col">
-                    <a class="text-decoration-none" href="https://www.southmetrotafe.wa.edu.au/">South Metropolitan TAFE</a>
+                    <a class="text-decoration-none text-muted" href="https://www.southmetrotafe.wa.edu.au/">South Metropolitan TAFE</a>
                 </div>
 
                 <div class="w-100 pt-3"></div>
 
                 <div class="col">
-                    <a href="https://www.flaticon.com/free-icon/web-link_3308395">
+                    <a href="https://www.flaticon.com/free-icon/world-wide-web_1927656">
                         <img
-                            src="web-link-icon.png"
-                            alt="Web link icon"
+                            src="world-wide-web.png"
+                            alt="Web wide web icon"
                             width="25"
                             height="25"
                         />
                     </a>
                 </div>
                 <div class="col" style="width: 200px;">
-                    <a class="text-decoration-none" href="https://www.citems.com.au/">CITE Managed Services</a>
+                    <a class="text-decoration-none text-muted" href="https://www.citems.com.au/">CITE Managed Services</a>
                 </div>
             </div>
         </div> 
